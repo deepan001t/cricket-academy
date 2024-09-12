@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="signin.css">
+    <script src="signin.js" defer></script>
+</head>
+<body>
+    <form action="" class="form" onsubmit="check()">
+        <h1>signin</h1>
+        <div class="inputform">
+            <label for="">Username:</label><br>
+            <input type="text" placeholder="username" id="name"><br>
+            <div id="errorname" style="color: red;"></div>
+        </div>
+        <div class="inputform">
+            <label for="">Password:</label><br>
+            <input type="password" placeholder="password" id="pass"><br>
+            <div id="errorpass"style="color: red;"></div>
+        </div>
+        <button type="button" value="submit" id="button"  onclick="check()">Sign in</button>        
+    </form>
+</body>
+</html>
+

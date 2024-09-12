@@ -1,0 +1,163 @@
+body{
+    background-color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+
+header .training img{
+    position: relative;
+    text-align: right;
+
+}
+
+header .training img{
+    width: 50px;
+    cursor: pointer;
+
+}
+.back a img{
+    width: 20px;
+    height: 20px;
+}
+header.training span{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    top: -5px;
+    left:80%;
+    padding: 3px 10px;
+
+
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 10px;
+}
+
+.box1 {
+    border: 2px solid;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: 500px;
+
+}
+
+.box1 img{
+    width: 100%;
+    height: 70%;
+   
+}
+.card{
+    position:fixed;
+    top: 0;
+    left: calc(100% - 500px);
+    width: 500px;
+    background-color: #dd4f13;
+    backdrop-filter: blur(90px);
+    height: 100vh;
+    transition: 0.5s;
+    background: transparent;
+    display: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.card h1{
+    color: rgb(69, 33, 7);
+    font-weight: 900;
+    margin: 0;
+    padding: 0 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .checkout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card .checkout div{
+    background-color: yellow;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .checkout div:nth-child(2){
+    background-color: #1c1f25;
+    color: #fff;
+}
+
+.active .card{
+    left: calc(100% - 500px);
+
+}
+
+.active .container{
+    transform: translateX(-200px);
+}
+
+.listcard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.train{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+.train img{
+    width: 50px;
+    margin-right: 200px;
+}
+
+.train .img {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content:;
+    height:50px ;
+    line-height:0px;
+    width: 300px;
+    
+}
+
+.train .img p{
+    margin-left: -100px;
+
+}

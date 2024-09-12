@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cskaccademy</title>
+    <link rel="stylesheet" href="feild.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header class="menu">
+       
+        <div class="logo">
+            <img src="image/logo.jpg" alt="">
+            <h1>Accademy</h1>
+        </div>
+        <!-- <div class="search"><input type="search" placeholder="search" id="anchor">
+            <button onclick="search()">search</button> -->
+        </div>
+        
+        <div class="service">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="bat.html">Batting</a></li>
+                <li><a href="bowl.html">Bowling</a></li>
+                <li><a href="field.html">fielding</a></li>
+                <li><a href="about.html">aboutus</a></li>
+                <li><a href="training.html">Training</a></li>
+
+                
+            </ul>
+        </div>
+       
+    </header>
+    <!-- <div class="back">
+        <h1 class="col">dark mode</h1>
+          <button id="change" onclick="change()">on</button>
+    </div> -->
+    <div class="batting">
+        <h1>Tips to improve your feilding skills</h1>
+        <div class="box2">
+            <div class="foot">
+                <img src="image/low" alt="" class="low">
+            </div>
+            <div class="tips1">
+                <h1>Stay Low and Balanced:</h1>
+                <p > Always stay in a low, balanced stance ready to move quickly in any direction. This helps in reacting faster to the ball.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="foot">
+                <img src="image/catching.png" alt=""class="low">
+            </div>
+            <div class="tips1">
+                <h1>Practice Catching Techniques: </h1>
+                <p> Work on different catching techniques, including high catches, slip catches, and close-in catches. Soft hands and proper hand positioning are key.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="foot">
+                <img src="image/diving" alt=""class="low">
+            </div>
+            <div class="tips1">
+                <h1>Work on Diving and Sliding:  </h1>
+                <p>Practice diving and sliding techniques to stop boundaries or make crucial saves. Ensure your technique is safe to avoid injuries.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="foot">
+                <img src="image/throw" alt=""class="low">
+            </div>
+            <div class="tips1">
+                <h1>Improve Throwing Accuracy:</h1>
+                <p>   Practice throwing the ball accurately to the wicketkeeper or bowler. Focus on your aim, power, and technique to ensure your throws are both fast and precise.</p>
+            </div>
+        </div>
+    </div>
+    <div class="fffff" id="footer"> 
+        <div class="footer">
+          
+          <div class="addres">
+              <h1>Address</h1>
+              <p>MA Chidambaram stadium,Wallahjah,chepauk,triplicane,chennai,tamil nadu,600002</p>
+  
+          </div>
+          <div class="contact">
+              <h1>contact details</h1>
+              <p>+91 8877665544</p>
+              <P>cskaccademy@gmail.com</P>
+              <div class="work">
+                  <h1>Business Hours</h1>
+                  <p>monday-sunday:10.00AM-7.00PM</p>
+              </div>          
+          </div>
+          <div class="links">
+              <p>home</p>
+              <p>batting</p>
+              <p>bowling</p>
+              <p>aboutus</p>
+              <p>photos</p>
+          </div>
+  
+        </div>
+      </div>
+      <script>
+        
+            let isOn = false;
+
+        function change() {
+            if (isOn) {
+                document.body.style.backgroundColor = "white"; 
+                document.getElementById("change").innerText = "On";
+            } else {
+                document.body.style.backgroundColor = "rgb(25, 24, 24)"; 
+                document.body.style.color = "white"; 
+                document.getElementById("change").innerText = "Off";
+
+            }
+            isOn = !isOn;
+        }
+
+      </script>
+</body>
+</html>

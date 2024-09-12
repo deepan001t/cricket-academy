@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+body{
+    background-image: url('image/walpaper');
+    background-size: cover;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: azure;
+    box-shadow: 2px 2px rosybrown;
+    transform: translate(-30%,-50%);
+    border-radius: 50px;
+    padding: 20px;
+    line-height:25px;
+    background: transparent;
+    backdrop-filter: blur(8px) ;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(245, 176, 0);
+}
+.inputform{
+    font-size: 17px;
+
+}
+
+.inputform input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    
+}
+.inputform .error{
+    color: red;
+    font-size: 15px;
+}
+
+.inputform input:focus{
+    outline: none;
+}
+#button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    background-color: lightgoldenrodyellow;
+    font-size: 17px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: cyan;
+
+}
+
+.sign{
+    /* border: 2px solid; */
+    margin-left: -20px;
+    display: flex;
+    padding-top:10px ;
+
+}
+
+.inputform.success input{
+    border: green 2px solid;
+}
+
+.inputform.error input{
+    border: red 2px solid;
+}
+
+#button a{
+    
+    text-decoration: none;
+}
