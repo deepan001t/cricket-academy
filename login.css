@@ -23,38 +23,70 @@
     transform: translate(-50%,-50%);
     border-radius: 25px;
     padding: 2%;
-    line: height 50%;
     background: transparent;
     backdrop-filter: blur(8px) ;
     width: 20%;
     height: 45%;
 
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1200px) and (min-width:1000px){
     .form{
-        width: 30%;
-        height: 50%;
+        width: 25%;
+        overflow: hidden;
+        height: 55%;
     }
 }
 
-@media screen and (max-width:600px ) and (min-width:400px) {
+@media screen and (max-width:1000px) and (min-width:800px){
     .form{
-        width: 50%;
-        height: 50%;
+        width: 30%;
+        overflow: hidden;
+        height: 55%;
+    }
+}
+@media screen and (max-width:600px ) and (min-width:500px) {
+    .form{
+       
+        width: 45%;
+        overflow: hidden;
+
+        height: 55%;
     }
 }
 @media screen and (max-width:800px ) and (min-width:600px) {
     .form{
-        width: 40%;
-        height: 50%;
+        width: 35%;
+        overflow: hidden;
+
+        height: 55%;
     }
 }
-@media screen and (max-width:40px ) {
+@media screen and (max-width:500px ) and (min-width:400px) {
     .form{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        overflow: hidden;
+
+        height: 55%;
     }
 }
+@media screen and (max-width:400px ) and (min-width:300px) {
+    .form{
+        width: 65%;
+        overflow: hidden;
+
+        height: 55%;
+    }
+}
+
+@media screen and (max-width:300px ) {
+    .form{
+        width: 75%;
+        overflow: hidden;
+
+        height: 55%;
+    }
+}
+
 
 h1{
     font-size: 30px;

@@ -33,6 +33,8 @@ function search(){
                 document.body.style.backgroundColor = "white"; 
                 document.body.style.color = "black"; 
                 document.getElementById("change").innerText = "On";
+                document.getElementById("footer").style.backgroundColor = "blue";
+
             } else {
                 document.body.style.backgroundColor = "rgb(25, 24, 24)"; 
                 document.body.style.color = "white"; 

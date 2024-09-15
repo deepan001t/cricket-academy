@@ -3,18 +3,20 @@
     padding: 0;
     /* background-color: aqua; */
 }
-body{
-    background-image:url('image/wp5991392.webp') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
+.photo img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
 
 .form{
     display: flex;
     flex-direction: column;
     place-items: center;
-    height: 35%;
+    height: 30%;
+    width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,24 +24,68 @@ body{
     background: transparent;
     backdrop-filter: blur(10px);
     box-shadow: 2px 2px rgba(251, 249, 249, 0.797);
-    transform: translate(50%,-50%);
+    transform: translate(-50%,-50%);
     padding: 20px;
     line-height:25px;
     overflow: hidden;
     border-radius: 20px;
+    
+}
+
+@media screen and (max-width:1200px) and (min-width:1000px) {
+    .form{
+        width: 25%;
+    overflow: hidden;
+
+        height: 30%;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:800px) {
+    .form{
+        width: 25%;
+    overflow: hidden;
+
+        height: 30%;
+    }
+}
+@media screen and (max-width:800px ) and (min-width:600px) {
+    .form{
+        width: 35%;
+        height: 30%;
+    overflow: hidden;
+
+    }
+}
+@media screen and (max-width:600px ) and (min-width:400px) {
+    .form{
+        width: 45%;
+        height: 30%;
+    overflow: hidden;
+
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .form{
+        width: 60%;
+        height: 30%;
+    overflow: hidden;
+
+    } 
 }
 h1{
     font-size: 30px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color:rgb(245, 176, 0);
 }
 .inputform{
     font-size: 17px;
+    width: 100%;
 
 }
 
 .inputform input{
-    width: 300px;
+    width: 100%;
     height: 30px;
     padding-left: 10px;
 }
