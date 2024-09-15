@@ -28,7 +28,7 @@
 .service ul li{
     display: inline;
     margin: 0px 10px;
-    font-size: 27px;
+    font-size: 23px;
     text-decoration:none;
 }
 
@@ -45,6 +45,39 @@
 
     
 }
+@media screen and (max-width:400px) {
+    .fffff{
+        border: 2px rgba(255, 255, 255, 0) solid;
+        margin-top: 80px;
+        background-color: blue;
+        margin-bottom: 0px;
+        height: 500px;
+        width: 200vh;
+        
+    }
+    .grup{
+        width: 1200px;
+    }
+    .us{
+        width:1200px ;
+    }
+    .image{
+        width: 190vh;
+    }
+    .photos{
+        margin-left: 500px;
+    }
+
+    .content{
+        width: 190vh;
+    }
+    .ppp{
+        padding-left: 400px;
+    }
+    .quotes {
+        width: 200vh;
+    }
+}
 
 .service ul li a:hover{
     color:rgb(245, 176, 0);
@@ -52,13 +85,14 @@
     transition: 1.8s;
 }
 /* header ends */
-.quotes{
+.quotes img{
     /* border: 5px solid rebeccapurple; */
-    padding-top:300px ;
+    padding-top:100px ;
     height: 80vh;
-    background-image: url('image/cricket-academy.jpg');
+    /* background-image: url('image/cricket-academy.jpg'); */
     /* margin-left: -100px; */
     background-size: cover;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -95,7 +129,11 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 20px;
     overflow: hidden;
+    width: 100%;
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
+}
+.bat{
+    width: 100%;
 }
 .bat img{
     height:300px ;
@@ -105,6 +143,9 @@
 .bat img:hover{
     transform: scale(1.3);
     transition: 2s;
+}
+.tip1{
+    width: 100%;
 }
 .tip1 h1{
     margin-top: 20px;
@@ -123,6 +164,7 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 20px;
     overflow: hidden;
+    width: 100%;
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
 }
 
@@ -133,6 +175,9 @@
     width: 350px;
     border-radius: 10px;
 }
+.bowl{
+    width: 100%;
+}
 .bowl img:hover{
     transform: scale(1.3);
     transition: 2s;
@@ -140,6 +185,9 @@
 .tip2 h1{
     margin-top: 30px;
     margin-left: 60px;
+}
+.tip2{
+    width: 100%;
 }
 .tip2 p{
     font-size: 25px;
@@ -154,7 +202,11 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 20px;
     overflow: hidden;
+    width: 100%;
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
+}
+.tip3{
+    width: 100%;
 }
 .feild img{
     height:300px ;
@@ -164,6 +216,9 @@
 .feild img:hover{
     transform: scale(1.3);
     transition: 2s;
+}
+.feild{
+    width: 100%;
 }
 .tip3 h1{
     margin-top: 30px;
@@ -182,7 +237,11 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 20px;
     overflow: hidden;
+    width: 100%;
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
+}
+.dhoni{
+    width: 100%;
 }
 .dhoni img{
     height:300px ;
@@ -200,8 +259,11 @@
 .tip4 p{
     font-size: 25px;
     line-height: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align:center ;
+}
+.tip4{
+    width: 100%;
 }
 .image{
     padding-left: 50px;
@@ -227,8 +289,8 @@
     color: rgb(247, 177, 0);
 }
 .p1 img{
-    width: 50vh;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     display: block;
      border-radius: 30px;
      /* border-top-right-radius: 30px; */
@@ -236,9 +298,7 @@
     background-size: cover;
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
 }
-.p1 img:hover{
-    /* transform: scale(1.2,1.2); */
-}
+
 .p1{
     /* border: 4px solid red; */
     padding: 20px;
@@ -259,12 +319,20 @@
     /* border: 4px solid black; */
     height: 60vh;
     display: flex;
-    
+    padding-top: 200px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 100vh;
+    column-gap: 30px;
+
+}
+.grup{
+    width: 600px;
 }
 .grup img{
-    width: 80vh;
-    height: 60vh;
-    margin-right: 30px;
+    width: 100%;
+    height: 100%;
+    /* margin-right: 30px; */
     border-radius: 30px;
 }
 .grup img:hover{
@@ -273,6 +341,7 @@
 }
 .us{
     margin: 70px;
+    width: 600px;
 }
 
 .us h1{
@@ -283,7 +352,7 @@
 .us p{
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 
@@ -327,7 +396,7 @@
     line-height: 30px;
     padding-top: 70px;
 }
-.contact p{
+.contact p {
     font-size: 20px;
 }
 .contact h1:hover{
@@ -343,7 +412,12 @@
     padding-top: 70px;
     padding-left: 30px;
 }
-.links p:hover{
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.links p a:hover{
     color: rgb(247, 177, 0);    
 }
 
@@ -368,25 +442,18 @@
     /* padding: 10px; */
 }
 
-.quotes{
-    /* border: 2px solid red; */
-    position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
 #change {
      width: 70px;
      font-size: 20px;
 
 }
 .back{
-    /* border: 2px solid ; */
-    position: absolute;
+    border: 2px solid ;
+    /* position: absolute; */
+    position: fixed;
     top: 100px;
     right: 0px;
-    text-align: center;
+    /* text-align: center; */
     backdrop-filter: blur(30px);
     /* margin-left: 60%;
     margin-top: 20%; */

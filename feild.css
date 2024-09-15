@@ -21,6 +21,23 @@
     color:rgb(56, 56, 203);
 
 }
+@media screen and (max-width:400px) {
+    .fffff{
+        border: 2px rgba(255, 255, 255, 0) solid;
+        margin-top: 80px;
+        background-color: blue;
+        margin-bottom: 0px;
+        height: 500px;
+        width: 200vh;
+        
+    }
+    .box2 {
+        width: 100vh;
+    }
+    .batting{
+        width: 100vh;
+    }
+}
 .logo h1{
     margin-left: 20px;
     font-size:40px ;
@@ -29,7 +46,7 @@
 .service ul li{
     display: inline;
     margin: 0px 10px;
-    font-size: 27px;
+    font-size: 23px;
     text-decoration:none;
     
    
@@ -58,14 +75,17 @@
     padding-top: 200px;
     /* border: 3px solid red; */
 }
-
+.batting h1:hover{
+    color:rgb(245, 176, 0);
+    border-radius: 10px;
+    transition: 1.8s;
+}
 .batting h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-style: oblique;
     padding-bottom: 50px;
 }
-
 .box1{
     /* border: 3px solid black; */
     display: grid;
@@ -88,8 +108,19 @@
 
 }
 
+.foot{
+    width: 600px;
+}
+.tips1{
+    width: 600px;
+}
+.batting h1:hover{
+    color:rgb(245, 176, 0);
+    border-radius: 10px;
+    transition: 1.8s;
+}
 .tips1 h1{
-    font-size: 50px;
+    font-size: 40px;
     padding: 30px;
     text-align: center;
 }
@@ -183,7 +214,12 @@
     padding-top: 70px;
     padding-left: 30px;
 }
-.links p:hover{
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.links p a:hover{
     color: rgb(247, 177, 0);    
 }
 

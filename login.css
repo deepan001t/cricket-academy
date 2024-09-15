@@ -27,6 +27,7 @@
     backdrop-filter: blur(8px) ;
     width: 20%;
     height: 45%;
+    padding-right: 20px;
 
 }
 @media screen and (max-width:1200px) and (min-width:1000px){
@@ -71,18 +72,16 @@
 }
 @media screen and (max-width:400px ) and (min-width:300px) {
     .form{
-        width: 65%;
+        width: 75%;
         overflow: hidden;
-
         height: 55%;
     }
 }
 
 @media screen and (max-width:300px ) {
     .form{
-        width: 75%;
+        width: 85%;
         overflow: hidden;
-
         height: 55%;
     }
 }
