@@ -18,7 +18,6 @@
     /* border: 5px  solid black; */
     display: flex;
     color:rgb(56, 56, 203);
-
 }
 .logo h1{
     margin-left: 20px;
@@ -35,6 +34,9 @@
 .service{
     margin-top: 30px;
     margin-right: 20px;
+}
+.service .bars{
+    display: none;
 }
 .service ul li a{
     text-decoration: none;
@@ -77,8 +79,45 @@
     .quotes {
         width: 200vh;
     }
+    .menu{
+        width: 100%;
+    }
+    .service ul li a{
+        display: none;
+    }
+    .service .bars{
+        display: block;
+    } 
 }
 
+.menubar{
+    background-color: black;
+    width: 40%;
+    height: 350px;
+    line-height: 50px;
+    padding: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-radius: 20px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 200;
+    display: none;
+}
+.menubar p a{
+    text-decoration: none;
+    color: rgb(247, 177, 0);
+
+}
+.menubar p a:hover{
+    color:rgb(56, 56, 203);
+    transition: 1.8s;
+}
+
+.menubar #retrun{
+    color: red;
+}
 .service ul li a:hover{
     color:rgb(245, 176, 0);
     border-radius: 10px;
@@ -89,8 +128,6 @@
     /* border: 5px solid rebeccapurple; */
     padding-top:100px ;
     height: 80vh;
-    /* background-image: url('image/cricket-academy.jpg'); */
-    /* margin-left: -100px; */
     background-size: cover;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -168,6 +205,10 @@
     box-shadow: 7px 7px  4px rgba(168, 164, 164, 0.621);
 }
 
+#next:hover {
+    background-color: antiquewhite;
+    border:red 2px solid;
+}
 
 
 .bowl img{
@@ -452,7 +493,7 @@
     /* position: absolute; */
     position: fixed;
     top: 100px;
-    right: 0px;
+    left: 0px;
     /* text-align: center; */
     backdrop-filter: blur(30px);
     /* margin-left: 60%;

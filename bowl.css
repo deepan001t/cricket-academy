@@ -26,6 +26,9 @@
     font-size:40px ;
     margin-top: 20px;
 }
+.service .bars{
+    display: none;
+}
 .service ul li{
     display: inline;
     margin: 0px 10px;
@@ -43,6 +46,42 @@
         width: 200vh;
         
     }
+    .service ul li a{
+        display: none;
+    }
+    .service .bars{
+        display: block;
+    } 
+}
+
+
+.menubar{
+    background-color: black;
+    width: 40%;
+    height: 350px;
+    line-height: 50px;
+    padding: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-radius: 20px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 200;
+    display: none;
+}
+.menubar p a{
+    text-decoration: none;
+    color: rgb(247, 177, 0);
+
+}
+.menubar p a:hover{
+    color:rgb(56, 56, 203);
+    transition: 1.8s;
+}
+
+.menubar #retrun{
+    color: red;
 }
 .service{
     margin-top: 30px;

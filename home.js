@@ -1,31 +1,3 @@
-
-
-function search(){
-
-
-    let a = document.getElementById('anchor').value.toLowerCase();
-
-    switch(a){
-
-        case "about":
-           window.location.href = "about.html";
-            break;
-        case "batting":
-            window.location.href = "bat.html";
-            break;
-        case "bowling":
-            window.location.href = "bowl.html";
-            break;
-        case "fielding":
-            window.location.href = "field.html";
-            break;
-        default:
-            alert("page not founded");
-
-    }
-}
-
-
     let isOn = false;
 
         function change() {
@@ -48,9 +20,19 @@ function search(){
 
 function move(){
     let image = document.getElementById('image');
-    let images = ['image/p1','image/p2','image/p3','image/p4','image/p5','image/p6',];
-
+    let images = ['image/new1.jpg','image/new2.jpg','image/new3.jpg','image/new4.jpg','image/new5.jpg','image/new6.jpg',];
     let random = Math.floor(Math.random() * 6);
     image.src =images[random];
+
 }
+
+let display=document.querySelector(".bars");
+let body = document.querySelector(".return");
+display.addEventListener('click', () =>{
+    document.querySelector(".menubar").style.display="block";
+})
+
+body.addEventListener('click' , () =>{
+    document.querySelector(".menubar").style.display="none";
+})
 

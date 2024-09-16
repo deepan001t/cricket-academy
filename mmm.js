@@ -28,3 +28,13 @@ function funct(){
         
     }
 }
+
+let display=document.querySelector(".bars");
+let body = document.querySelector(".return");
+display.addEventListener('click', () =>{
+    document.querySelector(".menubar").style.display="block";
+})
+
+body.addEventListener('click' , () =>{
+    document.querySelector(".menubar").style.display="none";
+})

@@ -54,7 +54,9 @@
     border-radius: 10px;
     transition: 1.8s;
 }
-
+.service .bars{
+    display: none;
+}
 .about{
     /* border: 4px solid black; */
     height: 60vh;
@@ -92,6 +94,42 @@
         width: 200vh;
         
     }
+    .service ul li a{
+        display: none;
+    }
+    .service .bars{
+        display: block;
+    } 
+}
+
+
+.menubar{
+    background-color: black;
+    width: 40%;
+    height: 350px;
+    line-height: 50px;
+    padding: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-radius: 20px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 200;
+    display: none;
+}
+.menubar p a{
+    text-decoration: none;
+    color: rgb(247, 177, 0);
+
+}
+.menubar p a:hover{
+    color:rgb(56, 56, 203);
+    transition: 1.8s;
+}
+
+.menubar #retrun{
+    color: red;
 }
 .grup{
     width: 600px;
