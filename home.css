@@ -49,35 +49,27 @@
 }
 @media screen and (max-width:400px) {
     .fffff{
-        border: 2px rgba(255, 255, 255, 0) solid;
-        margin-top: 80px;
+        border: 2px rgba(231, 4, 4, 0) solid;
+        /* margin-top: 80px; */
         background-color: blue;
         margin-bottom: 0px;
-        height: 500px;
-        width: 200vh;
-        
+        height: 300px;
+        width: 750px;
     }
-    .grup{
-        width: 1200px;
-    }
-    .us{
-        width:1200px ;
-    }
+   
     .image{
-        width: 190vh;
+        width: 100vh;
     }
     .photos{
-        margin-left: 500px;
+        margin-left: 200px;
     }
 
-    .content{
-        width: 190vh;
-    }
+
     .ppp{
-        padding-left: 400px;
+        padding-left: 40px;
     }
     .quotes {
-        width: 200vh;
+        width: 120vh;
     }
     .menu{
         width: 100%;
@@ -88,6 +80,8 @@
     .service .bars{
         display: block;
     } 
+   
+    
 }
 
 .menubar{
@@ -158,7 +152,19 @@
     padding: 40px;
     /* background-color: rgba(95, 93, 89, 0.448); */
 }
-
+@media screen and (max-width:400px){
+    .content{
+        /* border: solid red 4px; */
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        column-gap: 40px;
+        padding: 40px;
+        width: 100vh;
+        /* background-color: rgba(95, 93, 89, 0.448); */
+    }
+}
 .box1{
     /* border: 3px solid black; */
     height: 40vh;
@@ -395,14 +401,34 @@
     font-size: 20px;
     /* margin-top: 50px; */
 }
+@media screen and (max-width:400px) {
+    .grup{
+        width: 1200px;
+    }
+    .us{
+        width:1200px ;
+    }
+    .about{
+        /* border: 4px solid black; */
+        height: 150vh;
+        display: flex;
+        padding-top: 200px;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width: 100vh;
+        column-gap: 30px;
+        padding-left: 50px;
 
+    
+    }
+}
 
 .footer{
     border-top: 1px solid white;
     height: 40vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 100px;
+    margin: 50px;
     color: aliceblue;
 }
 .addres h1:hover{
@@ -421,7 +447,7 @@
 }
 .addres{
     /* border: 2px solid black; */
-    padding: 80px;
+    padding-top: 70px;
     font-size: 20px;
     line-height: 30px;
     /* margin-top: 40px; */
@@ -433,11 +459,12 @@
 .contact{
     /* border: 2px solid black; */
     height: 200px;
+    padding-left: 30px;
     
     line-height: 30px;
     padding-top: 70px;
 }
-.contact p {
+.contact p{
     font-size: 20px;
 }
 .contact h1:hover{
@@ -451,7 +478,7 @@
     font-size: 20px;
     line-height: 30px;
     padding-top: 70px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .links a{
     text-decoration: none;
@@ -461,7 +488,6 @@
 .links p a:hover{
     color: rgb(247, 177, 0);    
 }
-
 
 .search{
     /* border: 2px solid ; */

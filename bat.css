@@ -151,6 +151,32 @@
     .service .bars{
         display: block;
     } 
+    .box2{
+        /* border: 3px solid black; */
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .menu{
+        width: 120vh;
+    } 
+    .links{
+        /* border: 2px solid black; */
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 70px;
+        /* padding-left: 30px; */
+    }
+
+    .fffff{
+        border: 2px rgba(224, 13, 13, 0) solid;
+        margin-top: 80px;
+        background-color: blue;
+        margin-bottom: 0px;
+        height: 500px;
+        width: 110vh;
+        
+    }
 }
 
 
@@ -188,7 +214,7 @@
     height: 40vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 100px;
+    margin: 50px;
     color: aliceblue;
 }
 .addres h1:hover{
@@ -198,16 +224,16 @@
     color: rgb(247, 177, 0);
 }
 .fffff{
-    border: 2px rgba(255, 255, 255, 0) solid;
+    border: 2px rgba(224, 13, 13, 0) solid;
     margin-top: 80px;
     background-color: blue;
     margin-bottom: 0px;
-    height: 500px;
+    height: 400px;
     
 }
 .addres{
     /* border: 2px solid black; */
-    padding: 80px;
+    padding-top: 70px;
     font-size: 20px;
     line-height: 30px;
     /* margin-top: 40px; */
@@ -237,7 +263,7 @@
     font-size: 20px;
     line-height: 30px;
     padding-top: 70px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .links a{
     text-decoration: none;
@@ -252,7 +278,7 @@
 .search{
     /* border: 2px solid ; */
     width: 300px;
-    padding: 30px;
+    /* padding: 30px; */
     text-align: center;
 }
 
