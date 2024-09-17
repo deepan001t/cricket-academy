@@ -101,8 +101,8 @@
         width: 100vh;
     }
     .fffff{
-        /* border: 2px rgba(255, 255, 255, 0) solid; */
-        margin-top: 80px;
+        border: 2px rgba(231, 4, 4, 0) solid;
+        /* margin-top: 80px; */
         background-color: blue;
         margin-bottom: 0px;
         height: 300px;
@@ -200,13 +200,14 @@
 
 .footer{
     border-top: 1px solid white;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     column-gap: 30px;
     /* grid-template-columns: 1fr 1fr 1fr; */
     margin-top: 100px;
     color: aliceblue;
     padding: 30px;
+    padding-left: 200px;
 }
 .addres h1:hover{
     color: rgb(247, 177, 0);
@@ -215,7 +216,7 @@
     color: rgb(247, 177, 0);
 }
 .fffff{
-    /* border: 2px rgba(255, 255, 255, 0) solid; */
+    border: 2px rgba(250, 17, 17, 0) solid;
     margin-top: 80px;
     background-color: blue;
     margin-bottom: 0px;
@@ -224,7 +225,7 @@
 }
 .addres{
     /* border: 2px solid black; */
-    /* padding: 80px; */
+    padding: 30px;
     font-size: 20px;
     line-height: 30px;
     /* margin-top: 40px; */
@@ -238,7 +239,7 @@
     /* height: 200px; */
     
     line-height: 30px;
-    /* padding-top: 70px; */
+    padding: 25px;
 }
 .contact p{
     font-size: 20px;
@@ -253,8 +254,8 @@
     /* border: 2px solid black; */
     font-size: 20px;
     line-height: 30px;
-    /* padding-top: 70px;
-    padding-left: 30px; */
+     padding:25px;
+    /* padding-left: 30px; */ 
 }
 .links a{
     text-decoration: none;

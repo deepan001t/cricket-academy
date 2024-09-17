@@ -4,7 +4,8 @@ body{
 }
 
 .container{
-    width: 1000px;
+    /* border: 2px solid red; */
+    width: 70%;
     margin: auto;
     transition: 0.5s;
 }
@@ -31,7 +32,7 @@ header .training img{
     height: 20px;
 }
 header.training span{
-    background-color: red;
+    /* background-color: red; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -53,6 +54,68 @@ header.training span{
     margin-top: 10px;
 }
 
+@media screen and (max-width:400px) {
+    .list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-top: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    #catagories{
+        font-size: 20px;
+        font-weight: 900;
+        padding-left: 80px;
+    }
+    .train img{
+        padding-left: 80px;
+    
+    }
+    .card{
+        position:fixed;
+        top: 0;
+        left: calc(100% - 320px);
+        width: 320px;
+        background-color: #dd4f13;
+        backdrop-filter: blur(90px);
+        height: 100vh;
+        transition: 0.5s;
+        background: transparent;
+        display: none;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    
+    }
+    .card .checkout .total{
+        background-color: rgb(255, 136, 0);
+        width: 70%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+        padding-left: 100px;
+    }
+    
+    .card .checkout div:nth-child(2){
+        background-color: #1c1f25;
+        color: #fff;
+        width: 100%;
+        margin-left:20%;
+    }
+    .listcard{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        /* border: 2px solid rgb(255, 247, 0); */
+        height: 70vh;
+    }
+    
+}
 .box1 {
     border: 2px solid;
     text-align: center;
@@ -62,18 +125,30 @@ header.training span{
     overflow: hidden;
     height: 500px;
 
+
 }
 
-.box1 img{
+.div{
     width: 100%;
+    /* border: 2px solid red; */
     height: 70%;
+    overflow: hidden;
+
    
+}
+.div img{
+    height: 100%;
+    width: 100%;
+}
+.box1 img:hover{
+    transform: scale(1.2);
+    transition: 2s;
 }
 .card{
     position:fixed;
     top: 0;
-    left: calc(100% - 500px);
-    width: 500px;
+    left: calc(100% - 400px);
+    width: 400px;
     background-color: #dd4f13;
     backdrop-filter: blur(90px);
     height: 100vh;
@@ -118,9 +193,14 @@ header.training span{
     background-color: #1c1f25;
     color: #fff;
 }
-
+#catagories{
+    font-size: 20px;
+    font-weight: 900;
+    /* text-align: center; */
+    /* padding-left: 80px; */
+}
 .active .card{
-    left: calc(100% - 500px);
+    left: calc(100% - 320px);
 
 }
 
@@ -131,33 +211,34 @@ header.training span{
 .listcard{
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 5px;
+    /* border: 2px solid rgb(255, 247, 0); */
+    height: 100vh;
 }
 
 
 .train{
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 5px;
     cursor: pointer;
+    /* border: 2px solid red; */
 }
 
 .train img{
     width: 50px;
-    margin-right: 200px;
+    /* padding-left: 80px; */
+
 }
 
 .train .img {
     /* border: 2px solid; */
     display: flex;
-    justify-content:;
     height:50px ;
     line-height:0px;
     width: 300px;
     
 }
-
-.train .img p{
-    margin-left: -100px;
-
+.img p{
+    padding-left: 10px;
 }
